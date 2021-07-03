@@ -1,0 +1,46 @@
+.row {
+  display: flex;
+  height: 5rem;
+  width: 100%;
+}
+
+.result-screen {
+  align-items: center;
+  background-color: #222;
+  font-family: monospace, monospace;
+  font-size: 3em;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  align-items: center;
+  border: 1px #222 solid;
+  display: flex;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 3em;
+  justify-content: center;
+  width: 25%;
+}
+
+.calculator {
+  width: 24rem;
+}
+
+.half {
+  width: 50%;
+}
+
+.three-fourths {
+  width: 75%;
+}
+
+.orange-button {
+  background-color: #df974d;
+  color: white;
+}
+
+button:hover {
+  filter: brightness(150%);
+}
